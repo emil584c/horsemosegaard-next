@@ -31,39 +31,39 @@ function PrimaryCover() {
           images={[
             {
               url: "./img/outside-sunset.jpg",
-              alt: "1",
+              alt: "Picture of a sunset",
             },
             {
               url: "./img/lounge-area.jpg",
-              alt: "2",
+              alt: "A lounge area",
             },
             {
               url: "./img/alpaca-group.jpg",
-              alt: "3",
+              alt: "A group of alpacas",
             },
             {
               url: "./img/outside-room.jpg",
-              alt: "4",
+              alt: "Outside view of the facilites",
             },
             {
               url: "./img/longtable.jpg",
-              alt: "5",
+              alt: "A long table with chairs",
             },
             {
               url: "./img/kitchensink.jpg",
-              alt: "6",
+              alt: "A kitchen prepping area",
             },
             {
               url: "./img/pooltable.jpg",
-              alt: "7",
+              alt: "A pool table",
             },
             {
               url: "./img/changing-room.jpg",
-              alt: "8",
+              alt: "A changing room",
             },
             {
               url: "./img/room.png",
-              alt: "9",
+              alt: "A room with a pooltable and foosball table",
             },
           ]}
         />
