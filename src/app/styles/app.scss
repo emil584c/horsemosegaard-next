@@ -1,0 +1,24 @@
+@import "./helpers/all.scss";
+@import "./css-reset.scss";
+@import "./components/all.scss";
+
+body {
+  background-color: #fff8f3;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.background-white {
+  background-color: #ffffff;
+}
+
+.background-cream {
+  background-color: #fff8f3;
+}
+
+.background-secondary {
+  background-color: #faefe0;
+}

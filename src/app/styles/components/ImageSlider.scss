@@ -1,0 +1,36 @@
+.image-slider {
+  padding: 80px 24px;
+
+  &__slide {
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 8px;
+
+    img {
+      object-position: center;
+      transition: scale 500ms;
+    }
+
+    @include breakM(laptop) {
+      &:hover {
+        img {
+          scale: 1.05;
+        }
+      }
+    }
+  }
+
+  @include break(tablet) {
+    padding: 48px 12px;
+  }
+  @include break(mobile) {
+    padding: 32px 8px;
+  }
+
+  .swiper-button-prev {
+    display: none;
+  }
+  .swiper-button-next {
+    display: none;
+  }
+}

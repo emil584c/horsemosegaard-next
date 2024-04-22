@@ -1,0 +1,74 @@
+.text-calender {
+  padding: 80px 0;
+
+  &__title {
+    padding-bottom: 24px;
+  }
+
+  &__text {
+    max-width: 480px;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  iframe {
+    height: 600px;
+    width: 800px;
+
+    html {
+      body {
+        background-color: #fff8f3 !important;
+      }
+    }
+  }
+
+  #td-print-image-id {
+    display: none !important;
+  }
+
+  @include break(laptop) {
+    iframe {
+      width: 500px !important;
+      height: 400px !important;
+    }
+
+    &__text {
+      max-width: 400px;
+      font-size: 14px;
+    }
+  }
+
+  @include break(tablet) {
+    padding: 60px 0;
+    &__inner {
+      flex-direction: column;
+    }
+
+    iframe {
+      width: 100% !important;
+      height: 400px !important;
+    }
+
+    &__text {
+      max-width: 320px;
+      padding-bottom: 32px;
+    }
+
+    &__title {
+      padding-bottom: 16px;
+    }
+  }
+
+  @include break(mobile) {
+    padding: 48px 0;
+  }
+}
