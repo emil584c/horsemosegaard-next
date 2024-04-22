@@ -51,7 +51,7 @@ export default function Prices() {
             text: "Tilbydes i forbindelse med arrangement på gården. Billederne tages med Nikon og leveres digitalt efterfølgende.",
           },
           {
-            title: "Besøge alpacer",
+            title: "Besøge alpacaer",
             price: "20 kr. pr. person",
             text: "Mød vores alpacaer og hør mere om disse sjove og hyggelige dyr. Tilbydes i forbindelse med arrangement på gården.",
           },
