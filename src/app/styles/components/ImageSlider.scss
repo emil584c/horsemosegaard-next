@@ -9,6 +9,7 @@
     img {
       object-position: center;
       transition: scale 500ms;
+      max-height: 800px;
     }
 
     @include breakM(laptop) {
