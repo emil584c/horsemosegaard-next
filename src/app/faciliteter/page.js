@@ -13,7 +13,7 @@ export default function Facilities() {
         <TextImage
           title={"Vores lokaler"}
           text={
-            "Stedet er beliggende i Bjæverskov midt i mellem Køge og Ringsted. Lokalerne er hyggelige og rustikke. Dét ene med bjælker i lofter, lys som kan dæmpes, store plankeborde og anretter borde i samme stil. I det andet lokale kan du slå dig løs på dansegulvet eller dyste i diverse spil, tage en hyggelig snak i loungeområdet eller i baren. Derudover er der et anretterkøkken, garderobe, et toilet og mulighed for adgang til udendørs areal."
+            "Stedet er beliggende i Bjæverskov midt i mellem Køge og Ringsted. Lokalerne er hyggelige og rustikke. Dét ene med bjælker i loftet, lys som kan dæmpes, store plankeborde og anretter borde i samme stil. I det andet lokale kan du slå dig løs på dansegulvet eller dyste i diverse spil, tage en hyggelig snak i loungeområdet eller i baren. Derudover er der et anretterkøkken, garderobe, et toilet og mulighed for adgang til udendørs areal."
           }
           images={[
             {
