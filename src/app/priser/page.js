@@ -52,8 +52,8 @@ export default function Prices() {
           },
           {
             title: "Besøge alpacaer",
-            price: "20 kr. pr. person",
-            text: "Mød vores alpacaer og hør mere om disse sjove og hyggelige dyr. Tilbydes i forbindelse med arrangement på gården.",
+            price: "500 kr.",
+            text: "Mød vores alpacaer og hør mere om disse sjove og hyggelige dyr. Tilbydes kun i forbindelse med arrangement på gården.",
           },
           {
             title: "Råuld",
