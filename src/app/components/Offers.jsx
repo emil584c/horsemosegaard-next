@@ -11,7 +11,7 @@ export default function Offers({
     >
       <div className="offers__inner page-container">
         <h2 className="offers__title">{title}</h2>
-        <p className="offers__text">{text}</p>
+        <p className="offers__text">{text},</p>
         <div className="offers__grid">
           {offers.map((offer) => (
             <div

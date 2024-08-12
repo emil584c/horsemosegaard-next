@@ -87,10 +87,10 @@ function FooterSection() {
                 +45 21 67 42 29
               </a>
               <a
-                href="mailto:info@horsemosegaard.com"
+                href="mailto:horsemosegaard@gmail.com"
                 className="footer-section__mail"
               >
-                info@horsemosegaard.com
+                horsemosegaard@gmail.com
               </a>
             </ul>
           </div>
