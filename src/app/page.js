@@ -14,7 +14,7 @@ function Home() {
       <TextImage
         title={"Vores faciliteter"}
         text={
-          "Horsemosegaard er en landejendom beliggende i Bjæverskov, midt mellem Køge og Ringsted. Faciliteterne består af to større lokaler, det ene med bar, loungeområde, poolbord, dart, bordfodbold og diskotek med mulighed for “lysshow” på dansegulvet. I det andet lokale er der plankeborde, stort buffetbord, kaffebar, en sofagruppe og stort tv. Alt herinde kan rykkes rundt på efter behov."
+          "Horsemosegaard er en landejendom beliggende i Bjæverskov, midt mellem Køge og Ringsted. Faciliteterne består af to større lokaler, med plads til 50 personer, det ene med bar, loungeområde, poolbord, dart, bordfodbold og diskotek med mulighed for “lysshow” på dansegulvet. I det andet lokale er der plankeborde, stort buffetbord, kaffebar, en sofagruppe og stort tv. Alt herinde kan rykkes rundt på efter behov."
         }
         images={[
           {

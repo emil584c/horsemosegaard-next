@@ -15,6 +15,7 @@ function PrimaryCover() {
             kan være aktiv sammen med sine gæster inde og ude. Vi er i
             beliggende i Bjæverskov, tæt på Køge.
           </p>
+          <p className="primary-cover__capacity">Plads til 50 personer</p>
           <div className="primary-cover__button-container">
             <PrimaryButton
               text={"Kontakt"}

@@ -14,12 +14,18 @@
     font-family: "Hamhlet", serif !important;
   }
 
+  &__capacity {
+    padding-bottom: 24px;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+
   &__text {
     max-width: 617px;
     align-items: center;
     text-align: center;
-    padding-bottom: 32px;
     font-weight: 400;
+    padding-bottom: 12px;
   }
 
   &__button-container {
@@ -38,7 +44,7 @@
       max-width: 860px;
     }
   }
-  
+
   @include break(tablet) {
     padding-top: 140px;
   }
