@@ -39,6 +39,10 @@ function PrimaryCover() {
               alt: "A lounge area",
             },
             {
+              url: "./img/hall-full.jpg",
+              alt: "A full room view of the dining hall",
+            },
+            {
               url: "./img/alpaca-group.jpg",
               alt: "A group of alpacas",
             },

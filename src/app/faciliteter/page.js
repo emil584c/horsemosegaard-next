@@ -26,6 +26,10 @@ export default function Facilities() {
               alt: "A lounge area",
             },
             {
+              url: "./img/table.jpg",
+              alt: "A lounge area",
+            },
+            {
               url: "./img/kitchensink.jpg",
               alt: "A kitchen area",
             },
