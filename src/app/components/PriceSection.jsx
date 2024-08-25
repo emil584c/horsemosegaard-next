@@ -4,6 +4,9 @@ export default function PriceSection(props) {
       <div className="price-section__inner page-container">
         <h2 className="price-section__title">{props.title}</h2>
         <p className="price-section__text">{props.text}</p>
+        <p className="price-section__special">
+          Pris på helligdage efter aftale.
+        </p>
         <div className="price-section__grid">
           {props.prices.map((price) => (
             <div className="price-section__item">

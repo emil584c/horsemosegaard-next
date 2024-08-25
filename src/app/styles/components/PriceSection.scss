@@ -6,7 +6,6 @@
   }
 
   &__text {
-    padding-bottom: 32px;
     max-width: 535px;
   }
 
@@ -14,6 +13,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 48px;
+  }
+
+  &__special {
+    padding-bottom: 32px;
+    padding-top: 8px;
+    text-decoration: underline;
+    font-size: 18px;
   }
 
   &__item {
@@ -88,7 +94,7 @@
     }
   }
 
-  @include break(mobile){
+  @include break(mobile) {
     padding: 48px 0;
   }
 }
