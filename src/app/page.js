@@ -101,7 +101,7 @@ function Home() {
           },
           {
             title: "Kan man overnatte der",
-            text: "Nej men vi henviser gerne til steder hvor man kan overnatte. Og så er mulighed for at sætte campingvogn, telt eller autocamper op ved forespørgsel.",
+            text: "Nej men vi henviser gerne til steder hvor man kan overnatte. Og så er der mulighed for at sætte campingvogn, telt eller autocamper op ved forespørgsel.",
           },
           {
             title: "Er der gode parkeringsforhold",
