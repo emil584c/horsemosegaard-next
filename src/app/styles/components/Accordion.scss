@@ -1,0 +1,82 @@
+.accordion {
+  &__inner {
+    padding: 80px 40px;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  .wrapper {
+    overflow: hidden;
+    border-bottom: 1px solid black;
+  }
+
+  .wrapper .question-container {
+    width: 100%;
+    text-align: left;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .question-container.active {
+    color: #1db954;
+    background-image: linear-gradient(
+      90deg,
+      transparent,
+      rgba(0, 0, 0, 0.04),
+      transparent
+    );
+  }
+
+  .wrapper .question-container:hover {
+    background-image: linear-gradient(
+      90deg,
+      transparent,
+      rgba(0, 0, 0, 0.04),
+      transparent
+    );
+  }
+
+  .wrapper .arrow {
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+  }
+
+  .arrow.active {
+    rotate: 180deg;
+    color: #1db954;
+  }
+
+  .question-content {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .wrapper .answer-container {
+    transition: height 0.3s ease-in-out;
+  }
+
+  .wrapper .answer-content {
+    padding: 1rem 0;
+    font-size: 16px;
+    max-width: 800px;
+    font-weight: 300;
+  }
+
+  @include break(tablet) {
+    &__inner {
+      padding: 60px 0;
+      max-width: 90%;
+    }
+  }
+}

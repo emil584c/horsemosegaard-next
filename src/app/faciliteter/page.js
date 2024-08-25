@@ -3,6 +3,7 @@ import SecondaryCover from "../components/SecondaryCover";
 import TextImage from "../components/TextImage";
 import FooterSection from "../components/FooterSection.jsx";
 import ContactSection from "../components/ContactSection.jsx";
+import Accordion from "../components/Accordion.jsx";
 
 export default function Facilities() {
   return (
@@ -119,6 +120,61 @@ export default function Facilities() {
             "Kaffemaskine og elkedel",
             "Induktionskogeplader",
             "Wifi",
+          ]}
+        />
+        <Accordion
+          title="Praktisk information"
+          backgroundSecondary={false}
+          items={[
+            {
+              title: "Hvor mange er der plads til",
+              text: "Der er plads til 50 siddende gæster på Horsemosegaard.",
+              isOpen: true,
+            },
+            {
+              title: "Følger der service med",
+              text: "Der er fuldt service til 50 gæster, rød, hvidvin og vandglas og så er der div. skåle og fade mv.",
+            },
+            {
+              title: "Er der køkken til rådighed",
+              text: "Der er 2 anretter køkken med ovn, microovn, komfur, køle og fryseskabe + der er mulighed for at sætte grill eller en foodtruck op udenfor.",
+            },
+            {
+              title: "Serverer I mad",
+              text: "Nej man medbringer som udgangspunkt alt selv.",
+            },
+            {
+              title: "Opvarmning af lokaler",
+              text: "Lokalerne opvarmes med el radiatorer.",
+            },
+            {
+              title: "Kan man overnatte der",
+              text: "Nej men vi henviser gerne til steder hvor man kan overnatte. Og så er mulighed for at sætte campingvogn, telt eller autocamper op ved forespørgsel.",
+            },
+            {
+              title: "Er der gode parkeringsforhold",
+              text: " ja, der kan fint holde min. 35 biler i forbindelse med lokalet.",
+            },
+            {
+              title: "Kan man komme hertil med offentlig transport",
+              text: "Nærmeste busstoppested ligger 3 km herfra. Herfra kan man komme til Ringsted, Køge og Solrød bla.",
+            },
+            {
+              title: "Hvor længe før kan jeg aflyse min bookning",
+              text: "Senest 30 dage før ellers opkræves fuld pris",
+            },
+            {
+              title: "Hvor meget af mit depositum får jeg tilbage",
+              text: "Depositum tilbagebetales efter festen, der vil blive modregnet i el forbrug og evt skader, knuste glas mv.",
+            },
+            {
+              title: "Skal jeg selv gøre rent",
+              text: "Rengøring klares som udgangspunkt selv medmindre andet aftales.",
+            },
+            {
+              title: "Hvornår får jeg adgang til lokalet",
+              text: "Vi er meget fleksible omkring dette, så har du brug for at pynte op eller sætte ting af nogle dage før, så finder vi ud af det. Lokalet skal være rengjort og klar kl 20 om søndagen ved weekendleje.",
+            },
           ]}
         />
         <ContactSection
