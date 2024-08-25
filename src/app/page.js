@@ -75,7 +75,7 @@ function Home() {
       />
 
       <Accordion
-        title="Praktisk information"
+        title="Ofte stillede spørgsmål"
         backgroundSecondary={false}
         items={[
           {
