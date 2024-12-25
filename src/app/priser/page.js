@@ -16,7 +16,7 @@ export default function Prices() {
         prices={[
           {
             title: "Hverdag",
-            price: "2500 kr.",
+            price: "Efter nærmere aftale.",
             deposit: "1000 kr.",
             text: "En enkelt dag og aften i hverdagen fra mandag-torsdag.",
             listItems: [
