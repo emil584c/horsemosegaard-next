@@ -16,8 +16,8 @@ export default function Prices() {
         prices={[
           {
             title: "Hverdag",
-            price: "Efter nærmere aftale.",
-            deposit: "1000 kr.",
+            price: "Pris efter nærmere aftale.",
+            vat: false,
             text: "En enkelt dag og aften i hverdagen fra mandag-torsdag.",
             listItems: [
               "Depositum indbetales ved bookning",
@@ -29,6 +29,7 @@ export default function Prices() {
             title: "Weekend",
             price: "7500 kr.",
             deposit: "2500 kr.",
+            vat: true,
             el: true,
             text: "Book lokalet i en hel weekend fra fredag til og med søndag",
             listItems: [

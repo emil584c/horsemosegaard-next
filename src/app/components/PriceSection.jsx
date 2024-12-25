@@ -8,8 +8,8 @@ export default function PriceSection(props) {
           Pris på helligdage efter aftale.
         </p>
         <div className="price-section__grid">
-          {props.prices.map((price) => (
-            <div className="price-section__item">
+          {props.prices.map((price, _) => (
+            <div className="price-section__item" key={price.title}>
               <div className="price-section__item-title-container">
                 <div className="price-section__item-text-container">
                   <h3 className="price-section__item-title">{price.title}</h3>
@@ -19,20 +19,20 @@ export default function PriceSection(props) {
               <div className="price-section__item-line"></div>
               {price.listItems && (
                 <ul className="price-section__item-list">
-                  {price.listItems.map((item, index) => (
-                    <li key={index}>{item}</li>
+                  {price.listItems.map((item, _) => (
+                    <li key={item}>{item}</li>
                   ))}
                 </ul>
               )}
               <div className="price-section__item-price-container">
                 <p className="price-section__item-price">
                   {price.price}{" "}
-                  <span className="price-section__item-price-light">
-                    Inkl. moms {price.el && "+ el forbrug"}
+                  <span className="price-section__item-price-light"> 
+                    {props.vat && "Inkl. moms"} {price.el && "+ el forbrug"}
                   </span>
                 </p>
                 <p className="price-section__item-deposit">
-                  Depositum: {price.deposit}
+                  {price.deposit && `Depositum: ${price.deposit}`}
                 </p>
               </div>
             </div>
