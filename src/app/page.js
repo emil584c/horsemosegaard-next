@@ -125,7 +125,7 @@ function Home() {
           },
           {
             title: "Hvornår får jeg adgang til lokalet",
-            text: "Vi er meget fleksible omkring dette, så har du brug for at pynte op eller sætte ting af nogle dage før, så finder vi ud af det. Lokalet skal være rengjort og klar kl 20 om søndagen ved weekendleje.",
+            text: "Vi er meget fleksible omkring dette, så har du brug for at pynte op eller sætte ting af nogle dage før, så finder vi ud af det. lokalet afleveres senest kl 20 søndag i den stand det var ved udlejningens start og med borde, stole og andet placeret som ved ankomst.",
           },
         ]}
       />
